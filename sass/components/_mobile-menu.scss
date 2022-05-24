@@ -1,9 +1,8 @@
 .mobile-menu-btn {
-  position: relative;
-  display: block;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  // position: relative;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
   border: none;
   background-color: transparent;
   cursor: pointer;
@@ -11,7 +10,10 @@
   height: 40px;
   z-index: 10;
   padding: 0;
-  margin-left: auto;
+  // margin: 10px 15px 10px 0;
+  position: fixed;
+  top: 0;
+  right: 0;
   @media screen and (min-width: 768px) {
     display: none;
   }
