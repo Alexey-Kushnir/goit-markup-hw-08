@@ -555,14 +555,22 @@ body {
   width: 40px;
   height: 40px;
   padding: 0;
-  position: fixed;
+  margin-left: auto;
+  margin-right: 15px;
   z-index: 5;
   right: 15px;
+}
+.mobile-menu-btn:hover, .mobile-menu-btn:focus .mobile-menu-icon {
+  fill: var(--first-accent-color);
 }
 @media screen and (min-width: 768px) {
   .mobile-menu-btn {
     display: none;
   }
+}
+
+.mobile-menu.is-open .mobile-menu-btn {
+  position: fixed;
 }
 
 .mobile-menu-nav-item:not(:last-child) {
