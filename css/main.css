@@ -548,12 +548,12 @@ body {
 
 .mobile-menu-btn {
   background-color: transparent;
-  display: block;
+  display: inline-flex;
   border: none;
   cursor: pointer;
   width: 40px;
   height: 40px;
-  z-index: 10;
+  z-index: 5;
   padding: 0;
   margin-left: auto;
   margin-right: 15px;
@@ -633,19 +633,19 @@ body {
 }
 
 .mobile-menu-btn .icon-open {
-  opacity: 1;
+  display: block;
 }
 
 .mobile-menu-btn.is-open .icon-open {
-  opacity: 0;
+  display: none;
 }
 
 .mobile-menu-btn .icon-close {
-  opacity: 0;
+  display: none;
 }
 
 .mobile-menu-btn.is-open .icon-close {
-  opacity: 1;
+  display: block;
 }
 
 .mobile-menu {
