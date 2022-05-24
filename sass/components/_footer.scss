@@ -4,7 +4,6 @@
   padding-bottom: 60px;
   &-logo-address {
     min-width: 232px;
-    // text-align: center;
     margin-bottom: 60px;
     @media screen and (min-width: 1200px) {
       text-align: left;
@@ -34,9 +33,6 @@
     color: rgba(255, 255, 255, 0.6);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  // &-adress-list {
-  //   width: 232px;
-  // }
   &-adress-list-item:not(:last-child) {
     margin-bottom: 9px;
   }
@@ -51,9 +47,6 @@
       text-align: center;
       justify-content: space-around;
     }
-    // @media screen and (max-width: 767px) {
-    //   text-align: center;
-    // }
     @media screen and (min-width: 1200px) {
       display: flex;
       align-items: baseline;
@@ -64,9 +57,6 @@
 .logo-footer {
   display: block;
   margin-bottom: 20px;
-  // display: flex;
-
-  // align-self: flex-start;
 }
 
 .logo-3 {
@@ -95,7 +85,6 @@
   }
   &-list {
     display: flex;
-    // justify-content: flex-start;
   }
   &-link {
     width: 44px;
@@ -180,8 +169,6 @@
     @media screen and (min-width: 1200px) {
       align-self: flex-end;
     }
-    // justify-content: center;
-    // align-self: flex-end;
     letter-spacing: 0.06em;
     color: var(--first-title-color);
     cursor: pointer;
