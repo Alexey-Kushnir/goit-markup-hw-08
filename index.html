@@ -101,29 +101,29 @@
             <a class="mobile-menu-nav-link link" href="#contacts">Контакты</a>
           </li>
         </ul>
-        <ul class="mobile-menu-contacts">
-          <li class="mobile-menu-position list item link">
+        <ul class="mobile-menu-contacts list">
+          <li class="mobile-menu-position">
             <a class="mobile-menu-info link" href="tel:+380961111111">
               +38 096 111 11 11
             </a>
           </li>
-          <li class="mobile-menu-position list link contacts-position">
+          <li class="mobile-menu-position contacts-position">
             <a class="mobile-menu-info link" href="mailto:info@devstudio.com">
               info@devstudio.com
             </a>
           </li>
         </ul>
-        <ul class="mobile-menu-list">
-          <li class="mobile-menu-icon list">
+        <ul class="mobile-menu-list list">
+          <li class="mobile-menu-icon">
             <a class="mobile-menu-link link" href="">Instagram</a>
           </li>
-          <li class="mobile-menu-icon list">
+          <li class="mobile-menu-icon">
             <a class="mobile-menu-link link" href="">Twitter</a>
           </li>
-          <li class="mobile-menu-icon list">
+          <li class="mobile-menu-icon">
             <a class="mobile-menu-link link" href="">Facebook</a>
           </li>
-          <li class="mobile-menu-icon list">
+          <li class="mobile-menu-icon">
             <a class="mobile-menu-link link" href="">LinkedIn</a>
           </li>
         </ul>
@@ -318,13 +318,40 @@
               </div>
             </li>
             <li class="team-item">
-              <img
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/img_pd-min.jpg    1x,
+                    ./images/team/img_pd-min-2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/team/img_pd-min-tab.jpg    1x,
+                    ./images/team/img_pd-min-tab-2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/team/img_pd-min-mob.jpg    1x,
+                    ./images/team/img_pd-min-mob-2x.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  src="./images/team/img_pd-min-mob.jpg"
+                  alt="Ольга Репина"
+                />
+              </picture>
+              <!-- <img
                 src="./images/team/img_fd-min.jpg"
                 alt="Ольга Репина"
                 width="270"
                 height="260"
                 class="team-img"
-              />
+              /> -->
               <div class="team-item-descr">
                 <h3 class="team-item-name">Ольга Репина</h3>
                 <p class="team-item-role">Frontend Developer</p>
