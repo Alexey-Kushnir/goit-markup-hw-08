@@ -1,17 +1,16 @@
 .mobile-menu-btn {
-  // position: relative;
-  // align-items: center;
-  // justify-content: center;
   background-color: transparent;
   display: inline-flex;
   border: none;
   cursor: pointer;
   width: 40px;
   height: 40px;
-  z-index: 5;
   padding: 0;
-  margin-left: auto;
-  margin-right: 15px;
+  // margin-left: auto;
+  // margin-right: 15px;
+  position: fixed;
+  z-index: 5;
+  right: 15px;
   @media screen and (min-width: 768px) {
     display: none;
   }
@@ -89,22 +88,18 @@
 }
 
 .mobile-menu-btn .icon-open {
-  // opacity: 1;
   display: block;
 }
 
 .mobile-menu-btn.is-open .icon-open {
-  // opacity: 0;
   display: none;
 }
 
 .mobile-menu-btn .icon-close {
-  // opacity: 0;
   display: none;
 }
 
 .mobile-menu-btn.is-open .icon-close {
-  // opacity: 1;
   display: block;
 }
 
