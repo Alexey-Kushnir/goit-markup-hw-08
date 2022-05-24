@@ -558,7 +558,6 @@ body {
   margin-left: auto;
   margin-right: 15px;
   z-index: 5;
-  right: 15px;
 }
 .mobile-menu-btn:hover, .mobile-menu-btn:focus .mobile-menu-icon {
   fill: var(--first-accent-color);
