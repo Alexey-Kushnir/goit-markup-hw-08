@@ -580,11 +580,7 @@ body {
   color: var(--first-accent-color);
 }
 
-.mobile-menu-posotion:not(:last-child) {
-  margin-bottom: 32px;
-}
-
-.mobile-menu-posotion {
+.mobile-menu-position {
   display: block;
   color: #2196f3;
   font-weight: 500;
@@ -592,14 +588,14 @@ body {
   line-height: 1.17;
   letter-spacing: 0.02em;
 }
-.mobile-menu-posotion:last-child {
+.mobile-menu-position:last-child {
   color: #757575;
   font-weight: 500;
   font-size: 24px;
   line-height: 1.66;
   letter-spacing: 0.02em;
 }
-.mobile-menu-posotion:not(:last-child) {
+.mobile-menu-position:not(:last-child) {
   margin-bottom: 32px;
 }
 
