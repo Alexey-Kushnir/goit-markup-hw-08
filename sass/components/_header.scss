@@ -138,10 +138,6 @@
   color: var(--first-accent-color);
 }
 
-.mobile-menu-nav .current {
-  color: var(--first-accent-color);
-}
-
 .current {
   color: var(--first-accent-color);
   position: relative;
@@ -158,4 +154,8 @@
       background-color: var(--first-accent-color);
     }
   }
+}
+
+.mobile-menu-nav .current {
+  color: var(--first-accent-color);
 }
