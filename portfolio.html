@@ -28,6 +28,14 @@
           <span class="logo__part1">Web</span
           ><span class="logo__part2">Studio</span>
         </a>
+        <button class="menu-open-btn" type="button">
+          <svg class="mobile-menu__icon" width="40" height="40">
+            <use
+              class="mobile-menu__icon--open"
+              href="./images/icons.svg#menu"
+            ></use>
+          </svg>
+        </button>
         <div class="menu-container" id="menu-container">
           <nav class="header-nav">
             <ul class="header-links list">
@@ -71,29 +79,16 @@
           </ul>
         </div>
       </div>
-      <button
-        class="mobile-menu-btn"
-        type="button"
-        data-menu-button
-        aria-expanded="false"
-      >
-        <svg
-          class="mobile-menu__icon"
-          width="40"
-          height="40"
-          aria-label="Переключатель мобильного меню"
-        >
-          <use
-            class="mobile-menu__icon--open"
-            href="./images/icons.svg#menu"
-          ></use>
-          <use
-            class="mobile-menu__icon--close"
-            href="./images/icons.svg#close_menu"
-          ></use>
-        </svg>
-      </button>
-      <div class="mobile-menu" data-menu>
+      <!-- /////мобильное меню///// -->
+      <div class="mob-menu is-hidden">
+        <button class="menu-close-btn" type="button">
+          <svg class="mobile-menu__icon" width="40" height="40">
+            <use
+              class="mobile-menu__icon--close"
+              href="./images/icons.svg#close_menu"
+            ></use>
+          </svg>
+        </button>
         <ul class="mobile-menu-nav list">
           <li class="mobile-menu-nav__item">
             <a class="mobile-menu-nav__link link" href="./index.html">Студия</a>
@@ -170,7 +165,7 @@
                   <img
                     src="./images/th_kryak.jpg"
                     alt="Технокряк"
-                    width="370"
+                    width="450"
                     height="294"
                   />
                   <div class="port-exmpl-img-info">
@@ -194,7 +189,7 @@
                   <img
                     src="./images/nw_orl.jpg"
                     alt="New Orlean"
-                    width="370"
+                    width="450"
                     height="294"
                   />
                   <div class="port-exmpl-img-info">
@@ -220,7 +215,7 @@
                   <img
                     src="./images/seaf.jpg"
                     alt="Seafood"
-                    width="370"
+                    width="450"
                     height="294"
                   />
                   <div class="port-exmpl-img-info">
@@ -244,7 +239,7 @@
                   <img
                     src="./images/prime.jpg"
                     alt="Prime"
-                    width="370"
+                    width="450"
                     height="294"
                   />
                   <div class="port-exmpl-img-info">
@@ -268,7 +263,7 @@
                   <img
                     src="./images/boxes.jpg"
                     alt="Boxes"
-                    width="370"
+                    width="450"
                     height="294"
                   />
                   <div class="port-exmpl-img-info">
@@ -292,7 +287,7 @@
                   <img
                     src="./images/inspir.jpg"
                     alt="Inspiration"
-                    width="370"
+                    width="450"
                     height="294"
                   />
                   <div class="port-exmpl-img-info">
@@ -316,7 +311,7 @@
                   <img
                     src="./images/limit.jpg"
                     alt="Limited"
-                    width="370"
+                    width="450"
                     height="294"
                   />
                   <div class="port-exmpl-img-info">
@@ -340,7 +335,7 @@
                   <img
                     src="./images/lab.jpg"
                     alt="LAB"
-                    width="370"
+                    width="450"
                     height="294"
                   />
                   <div class="port-exmpl-img-info">
@@ -364,7 +359,7 @@
                   <img
                     src="./images/grow.jpg"
                     alt="Growing"
-                    width="370"
+                    width="450"
                     height="294"
                   />
                   <div class="port-exmpl-img-info">
@@ -465,6 +460,6 @@
         </form>
       </div>
     </footer>
-    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

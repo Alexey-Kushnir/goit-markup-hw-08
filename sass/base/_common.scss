@@ -21,3 +21,13 @@ body {
   all: unset;
   text-decoration: none;
 }
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
