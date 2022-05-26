@@ -56,8 +56,6 @@
 }
 
 .port-exmpl-item {
-  // width: 450px;
-  // height: 404px;
   margin-bottom: 30px;
   @include tablet {
     flex-basis: calc(100% / 2 - 30px);
@@ -73,7 +71,6 @@
 
 .port-exmpl-link {
   display: flex;
-  // align-items: flex-start;
   flex-direction: column;
   height: 100%;
   transition-property: box-shadow;
@@ -81,13 +78,9 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &:hover .port-exmpl-img-info {
     transform: translateY(0);
-    // top: 0;
-    // left: 0;
   }
   &:focus .port-exmpl-img-info {
     transform: translateY(0);
-    // top: 0;
-    // left: 0;
   }
   &:hover,
   &:focus {
@@ -99,7 +92,6 @@
 .port-exmpl-img {
   position: relative;
   overflow: hidden;
-  // flex-grow: 1;
   &-info {
     display: flex;
     align-items: center;
@@ -107,8 +99,6 @@
     position: absolute;
     content: '';
     flex-grow: 1;
-    // width: 450px;
-    // height: 294px;
     top: 0;
     left: 0;
     width: 100%;
@@ -117,13 +107,12 @@
     // padding: 63px 24px;
     padding: 0 24px;
     transform: translateY(101%);
-    // transform-box: fill-box;
     transition-property: transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    @media screen and (max-width: 320px) {
-      overflow-y: scroll;
-    }
+    // @media screen and (max-width: 320px) {
+    //   overflow-y: scroll;
+    // }
   }
 }
 

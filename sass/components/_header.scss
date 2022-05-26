@@ -108,16 +108,18 @@
       font-size: 12px;
       line-height: 1.33;
     }
-    // &:first-child {
-    //   @media screen and (min-width: 768px) and (max-width: 1199px) {
-    //     padding-top: 21px;
-    //   }
-    // }
-    // &:last-child {
-    //   @media screen and (min-width: 768px) and (max-width: 1199px) {
-    //     padding-bottom: 21px;
-    //   }
-    // }
+  }
+
+  &__mail {
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      padding-top: 21px;
+    }
+  }
+
+  &__tel {
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      padding-bottom: 21px;
+    }
   }
 
   &__icon {
@@ -213,9 +215,6 @@
   &:focus .mobile-menu__icon {
     fill: var(--first-accent-color);
   }
-  // @media screen and (min-width: 768px) {
-  //   display: none;
-  // }
 }
 
 .mobile-menu-nav__item {
@@ -282,9 +281,6 @@
     height: 100%;
     margin-left: 10px;
     background-color: rgba(33, 33, 33, 0.2);
-    // @media screen and (max-width: 415px) {
-    //   margin-left: 3px;
-    // }
   }
 }
 
