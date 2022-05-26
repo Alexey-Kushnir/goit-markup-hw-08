@@ -109,7 +109,6 @@
     flex-grow: 1;
     // width: 450px;
     // height: 294px;
-    overflow-y: scroll;
     top: 0;
     left: 0;
     width: 100%;
@@ -122,6 +121,9 @@
     transition-property: transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @media screen and (max-width: 320px) {
+      overflow-y: scroll;
+    }
   }
 }
 
