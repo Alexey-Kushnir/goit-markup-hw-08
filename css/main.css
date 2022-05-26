@@ -468,6 +468,11 @@ body {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header-contacts {
+    margin-left: 84px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .header-contacts__item:first-child {
     margin-bottom: 10px;
   }
@@ -496,7 +501,6 @@ body {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .header-contacts__contact {
     padding: 0;
-    margin-left: 84px;
     font-size: 12px;
     line-height: 1.33;
   }
@@ -694,6 +698,11 @@ body {
     padding: 48px 40px;
   }
 }
+@media screen and (min-width: 767px) {
+  .mob-menu {
+    display: none;
+  }
+}
 
 .mob-menu.is-hidden {
   transform: translateX(100%);
@@ -822,7 +831,7 @@ body {
   border-radius: 4px;
   justify-content: center;
   align-items: center;
-  padding: 25px 0;
+  height: 120px;
 }
 
 .wwdo {
@@ -1041,6 +1050,7 @@ body {
 @media screen and (min-width: 1200px) {
   .footer-logo-address {
     text-align: left;
+    margin-bottom: 0;
   }
 }
 .footer-map {
@@ -1108,6 +1118,7 @@ body {
   .footer-soc {
     align-items: flex-start;
     margin-left: 70px;
+    margin-bottom: 0;
   }
 }
 .footer-soc-title {
@@ -1169,6 +1180,11 @@ body {
 @media screen and (min-width: 1200px) {
   .footer-sign-label {
     text-align: left;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer-sign-label {
+    margin-right: 0px;
   }
 }
 .footer-sign-input {
@@ -1317,10 +1333,10 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .port-exmpl-link:hover .port-exmpl-img-info {
-  transform: translateY(-294px);
+  transform: translateY(0);
 }
 .port-exmpl-link:focus .port-exmpl-img-info {
-  transform: translateY(-294px);
+  transform: translateY(0);
 }
 .port-exmpl-link:hover, .port-exmpl-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.1607843137);
@@ -1337,13 +1353,14 @@ body {
   position: absolute;
   content: "";
   flex-grow: 1;
+  overflow: scroll;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background: rgba(33, 150, 243, 0.9);
   padding: 0 24px;
-  transform: translateY(0px);
+  transform: translateY(101%);
   transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

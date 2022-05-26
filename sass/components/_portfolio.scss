@@ -80,12 +80,12 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &:hover .port-exmpl-img-info {
-    transform: translateY(-294px);
+    transform: translateY(0);
     // top: 0;
     // left: 0;
   }
   &:focus .port-exmpl-img-info {
-    transform: translateY(-294px);
+    transform: translateY(0);
     // top: 0;
     // left: 0;
   }
@@ -109,6 +109,7 @@
     flex-grow: 1;
     // width: 450px;
     // height: 294px;
+    overflow: scroll;
     top: 0;
     left: 0;
     width: 100%;
@@ -116,7 +117,8 @@
     background: rgba(33, 150, 243, 0.9);
     // padding: 63px 24px;
     padding: 0 24px;
-    transform: translateY(0px);
+    transform: translateY(101%);
+    // transform-box: fill-box;
     transition-property: transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
