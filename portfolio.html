@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <!-- /////header///// -->
+    <!-- ////////////////header//////////////// -->
     <header class="header">
       <div class="container">
         <a class="logo header__logo link" href="./index.html">
@@ -79,7 +79,7 @@
           </ul>
         </div>
       </div>
-      <!-- /////мобильное меню///// -->
+      <!-- ////////////////мобильное меню//////////////// -->
       <div class="mob-menu is-hidden">
         <button class="menu-close-btn" type="button">
           <svg class="mobile-menu__icon" width="40" height="40">
@@ -137,7 +137,7 @@
       </div>
     </header>
     <main>
-      <!-- /////portfolio-navigation///// -->
+      <!-- ////////////////portfolio-navigation//////////////// -->
       <section class="port-nav section">
         <div class="container">
           <ul class="port-nav-list list">
@@ -162,12 +162,33 @@
             <li class="port-exmpl-item">
               <a href="" class="port-exmpl-link link">
                 <div class="port-exmpl-img">
-                  <img
-                    src="./images/th_kryak.jpg"
-                    alt="Технокряк"
-                    width="450"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/th_kryak.jpg    1x,
+                        ./images/portfolio/th_kryak-2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/th_kryak-tab.jpg    1x,
+                        ./images/portfolio/th_kryak-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/th_kryak-mob.jpg    1x,
+                        ./images/portfolio/th_kryak-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img
+                      src="./images/portfolio/th_kryak-mob.jpg"
+                      alt="Технокряк"
+                    />
+                  </picture>
                   <div class="port-exmpl-img-info">
                     <p class="port-exmpl-info-text">
                       Ресурс предлагает комплексные предложения с разным уровнем
@@ -186,12 +207,33 @@
             <li class="port-exmpl-item">
               <a href="" class="port-exmpl-link link">
                 <div class="port-exmpl-img">
-                  <img
-                    src="./images/nw_orl.jpg"
-                    alt="New Orlean"
-                    width="450"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/nw_orl.jpg    1x,
+                        ./images/portfolio/nw_orl-2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/nw_orl-tab.jpg    1x,
+                        ./images/portfolio/nw_orl-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/nw_orl-mob.jpg    1x,
+                        ./images/portfolio/nw_orl-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img
+                      src="./images/portfolio/nw_orl-mob.jpg"
+                      alt="New Orlean"
+                    />
+                  </picture>
                   <div class="port-exmpl-img-info">
                     <p class="port-exmpl-info-text">
                       Ресурс предлагает комплексные предложения с разным уровнем
@@ -212,12 +254,30 @@
             <li class="port-exmpl-item">
               <a href="" class="port-exmpl-link link">
                 <div class="port-exmpl-img">
-                  <img
-                    src="./images/seaf.jpg"
-                    alt="Seafood"
-                    width="450"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/seaf.jpg    1x,
+                        ./images/portfolio/seaf-2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/seaf-tab.jpg    1x,
+                        ./images/portfolio/seaf-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/seaf-mob.jpg    1x,
+                        ./images/portfolio/seaf-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./images/portfolio/seaf-mob.jpg" alt="Seafood" />
+                  </picture>
                   <div class="port-exmpl-img-info">
                     <p class="port-exmpl-info-text">
                       Ресурс предлагает комплексные предложения с разным уровнем
@@ -236,12 +296,30 @@
             <li class="port-exmpl-item">
               <a href="" class="port-exmpl-link link">
                 <div class="port-exmpl-img">
-                  <img
-                    src="./images/prime.jpg"
-                    alt="Prime"
-                    width="450"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/prime.jpg    1x,
+                        ./images/portfolio/prime-2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/prime-tab.jpg    1x,
+                        ./images/portfolio/prime-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/prime-mob.jpg    1x,
+                        ./images/portfolio/prime-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./images/portfolio/prime-mob.jpg" alt="Prime" />
+                  </picture>
                   <div class="port-exmpl-img-info">
                     <p class="port-exmpl-info-text">
                       Ресурс предлагает комплексные предложения с разным уровнем
@@ -260,12 +338,30 @@
             <li class="port-exmpl-item">
               <a href="" class="port-exmpl-link link">
                 <div class="port-exmpl-img">
-                  <img
-                    src="./images/boxes.jpg"
-                    alt="Boxes"
-                    width="450"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/boxes.jpg    1x,
+                        ./images/portfolio/boxes-2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/boxes-tab.jpg    1x,
+                        ./images/portfolio/boxes-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/boxes-mob.jpg    1x,
+                        ./images/portfolio/boxes-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./images/portfolio/boxes-mob.jpg" alt="Boxes" />
+                  </picture>
                   <div class="port-exmpl-img-info">
                     <p class="port-exmpl-info-text">
                       Ресурс предлагает комплексные предложения с разным уровнем
@@ -284,12 +380,33 @@
             <li class="port-exmpl-item">
               <a href="" class="port-exmpl-link link">
                 <div class="port-exmpl-img">
-                  <img
-                    src="./images/inspir.jpg"
-                    alt="Inspiration"
-                    width="450"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/inspir.jpg    1x,
+                        ./images/portfolio/inspir-2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/inspir-tab.jpg    1x,
+                        ./images/portfolio/inspir-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/inspir.jpg    1x,
+                        ./images/portfolio/inspir-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img
+                      src="./images/portfolio/inspir-mob.jpg"
+                      alt="Inspiration"
+                    />
+                  </picture>
                   <div class="port-exmpl-img-info">
                     <p class="port-exmpl-info-text">
                       Ресурс предлагает комплексные предложения с разным уровнем
@@ -308,12 +425,30 @@
             <li class="port-exmpl-item">
               <a href="" class="port-exmpl-link link">
                 <div class="port-exmpl-img">
-                  <img
-                    src="./images/limit.jpg"
-                    alt="Limited"
-                    width="450"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/limit.jpg    1x,
+                        ./images/portfolio/limit-2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/limit-tab.jpg    1x,
+                        ./images/portfolio/limit-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/limit-mob.jpg    1x,
+                        ./images/portfolio/limit-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./images/portfolio/limit-mob.jpg" alt="Limited" />
+                  </picture>
                   <div class="port-exmpl-img-info">
                     <p class="port-exmpl-info-text">
                       Ресурс предлагает комплексные предложения с разным уровнем
@@ -332,12 +467,30 @@
             <li class="port-exmpl-item">
               <a href="" class="port-exmpl-link link">
                 <div class="port-exmpl-img">
-                  <img
-                    src="./images/lab.jpg"
-                    alt="LAB"
-                    width="450"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/lab.jpg    1x,
+                        ./images/portfolio/lab-2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/lab-tab.jpg    1x,
+                        ./images/portfolio/lab-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/lab-mob.jpg    1x,
+                        ./images/portfolio/lab-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./images/portfolio/lab-mob.jpg" alt="LAB" />
+                  </picture>
                   <div class="port-exmpl-img-info">
                     <p class="port-exmpl-info-text">
                       Ресурс предлагает комплексные предложения с разным уровнем
@@ -356,12 +509,30 @@
             <li class="port-exmpl-item">
               <a href="" class="port-exmpl-link link">
                 <div class="port-exmpl-img">
-                  <img
-                    src="./images/grow.jpg"
-                    alt="Growing"
-                    width="450"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/grow.jpg    1x,
+                        ./images/portfolio/grow-2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/grow-tab.jpg    1x,
+                        ./images/portfolio/grow-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/grow-mob.jpg    1x,
+                        ./images/portfolio/grow-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./images/portfolio/grow-mob.jpg" alt="Growing" />
+                  </picture>
                   <div class="port-exmpl-img-info">
                     <p class="port-exmpl-info-text">
                       Ресурс предлагает комплексные предложения с разным уровнем
@@ -381,7 +552,7 @@
         </div>
       </section>
     </main>
-    <!-- /////footer///// -->
+    <!-- ////////////////footer//////////////// -->
     <footer class="footer">
       <div class="container">
         <div class="footer-logo-address">
